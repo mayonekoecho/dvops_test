@@ -1,5 +1,8 @@
 #!/usr/bin/env python
+import subprocess
 
 print 'hello world!\n'
-#Oct 10/28/2017 8:20
-#python 3 target
+subprocess.call(["service","postfix","stop"])
+
+#Oct 10/28/2017 8:35
+#python 2 target
